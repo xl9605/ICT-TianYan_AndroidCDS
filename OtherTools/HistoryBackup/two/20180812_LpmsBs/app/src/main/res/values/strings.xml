@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SupportDesignDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">工单详情</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_fab">FabActivity</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_activity_appbar_layout">AppbarLayoutActivity</string>
+    <string name="title_activity_collapsing">CollapsingActivity</string>
+</resources>

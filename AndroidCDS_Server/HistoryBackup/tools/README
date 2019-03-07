@@ -1,0 +1,10 @@
+g++ Images.cpp -o Images `pkg-config --cflags --libs opencv`
+./Images
+
+
+g++ Mouse.cpp -o Mouse `pkg-config --cflags --libs opencv`
+./Mouse
+
+
+g++ wenizi.cpp -o wenizi `pkg-config --cflags --libs opencv`
+./wenizi

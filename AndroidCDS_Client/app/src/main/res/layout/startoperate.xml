@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:keepScreenOn="true"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0FFFF">
+
+    <Chronometer
+        android:id ="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format="00:00:00"
+        android:textSize="80px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:textColor="#000000"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:keepScreenOn="true"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:background="#F0FFFF">
+
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="20dp"
+        android:cursorVisible="false"
+        android:singleLine="true"
+        android:textSize="17dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"
+        android:text="所在柜门："
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/cabinetnumber"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:cursorVisible="false"
+        android:singleLine="true"
+        android:textSize="17dp"
+        android:layout_marginTop="70dp"
+        android:textColor="#000000" />
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:keepScreenOn="true" android:orientation="horizontal"
+        android:background="#F0FFFF">
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="20dp"
+        android:cursorVisible="false"
+        android:singleLine="true"
+        android:textSize="17dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:text="手环数据："
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:singleLine="true"
+        android:textSize="17dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#000000" />
+    </LinearLayout>
+    <Button
+        android:id ="@+id/end_operate"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:textSize="22dp"
+        android:layout_marginTop="200dp"
+        android:text="结束操作"
+        android:background="@drawable/shape"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

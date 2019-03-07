@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/dot_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/dot_black" />
+
+
+    <TextView
+        android:id="@+id/accept_station_tv"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/dot_iv"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@id/dot_iv"
+        android:textColor="#666666"
+        android:textSize="14sp"
+        tools:text="第一步"/>
+
+    <TextView
+        android:id="@+id/accept_station"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/dot_iv"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="60dp"
+        android:layout_toEndOf="@id/dot_iv"
+        android:textColor="#666666"
+        android:gravity="fill_vertical"
+        android:textSize="14sp"
+        tools:text="悬挂检修标牌,哈哈哈哈哈哈哈哈哈哈啊哈哈哈啊哈哈啊哈哈哈，假按揭啊哈哈哈" />
+    <ImageView
+        android:id="@+id/dot"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@id/accept_station_tv"
+        android:layout_below="@id/accept_station"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/dot_black" />
+    <TextView
+        android:id="@+id/btn"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@id/dot"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/accept_station"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:textSize="15dp"
+        tools:text="开始" />
+    <View
+        android:id="@+id/divider_line_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignStart="@id/accept_station_tv"
+        android:layout_below="@id/btn"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#eeeeee" />
+
+    <View
+        android:id="@+id/empty_view"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/divider_line_view"
+        android:layout_marginStart="15dp" />
+
+
+    <!--时间轴的竖线-->
+    <View
+        android:id="@+id/time_line_view"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_above="@id/empty_view"
+        android:layout_alignStart="@id/dot_iv"
+        android:layout_below="@id/dot_iv"
+        android:layout_marginStart="7dp"
+        android:background="#eeeeee" />
+
+
+</RelativeLayout>

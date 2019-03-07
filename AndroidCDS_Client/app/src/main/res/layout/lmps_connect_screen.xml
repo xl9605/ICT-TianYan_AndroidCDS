@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:keepScreenOn="true"
+	android:background="#FFFFFF">
+
+	<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/list"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:visibility="invisible"/>
+
+	<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/connected_devices_list"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:visibility="invisible" />
+
+	<Button
+		android:id="@+id/button_start_operate"
+		android:layout_width="350dp"
+		android:layout_height="350dp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="50dp"
+		android:background="@drawable/startoperate"
+		android:textSize="30dp" />
+</RelativeLayout>
+	<!--android:layout_centerVertical="true"-->

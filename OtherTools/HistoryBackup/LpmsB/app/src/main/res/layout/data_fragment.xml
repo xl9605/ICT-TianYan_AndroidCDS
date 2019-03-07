@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+
+<!--<ToggleButton--><!--android:checked="false"--><!--android:textOn="@string/measuring"--><!--android:textOff="@string/stopped"--><!--android:id="@+id/toggle"--><!--app:layout_constraintTop_toTopOf="parent"--><!--app:layout_constraintBottom_toBottomOf="parent"--><!--app:layout_constraintLeft_toLeftOf="parent"--><!--app:layout_constraintRight_toRightOf="parent"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent" />-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/accelerometer" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/accGraph"
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/Heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="@string/gyroscope" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/gyrGraph"
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/Heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="@string/magnetometer" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/magGraph"
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+</ScrollView>

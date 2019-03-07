@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    android:background="#F0FFFF">
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="20dp"
+            android:cursorVisible="false"
+            android:singleLine="true"
+            android:textSize="17dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="安全作业智能预警系统"
+            android:textColor="#000000" />
+        <LinearLayout
+            android:layout_height="50dp"
+            android:layout_width="300dip"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:cursorVisible="false"
+            android:singleLine="true"
+            android:textSize="30dp"
+            android:text="工作认证子系统"
+            android:textColor="#000000" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="380dp"
+            android:layout_width="300dip"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/cover_user_photo"
+            android:layout_width="200.0dip"
+            android:layout_height="200.0dip"
+            android:layout_marginTop="60dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/face" />
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="40dp"
+                    android:cursorVisible="false"
+                    android:singleLine="true"
+                    android:textSize="25dp"
+                    android:layout_marginTop="30dp"
+                    android:text="操作员拍照"
+                    android:textColor="#000000"
+                    android:id="@+id/users" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="220.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo" />
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,19 @@
+Executable : /home/xuliang/.local/Android_Studio/Android_SDK/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/mnt/sda1/Program Codes/GitRepository/GitHubByxl9605/ICT-TianYan_AndroidCDS/AndroidCDS_Client/app
+-B/mnt/sda1/Program Codes/GitRepository/GitHubByxl9605/ICT-TianYan_AndroidCDS/AndroidCDS_Client/app/.externalNativeBuild/cmake/debug/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/mnt/sda1/Program Codes/GitRepository/GitHubByxl9605/ICT-TianYan_AndroidCDS/AndroidCDS_Client/app/build/intermediates/cmake/debug/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/home/xuliang/.local/Android_Studio/Android_SDK/ndk-bundle
+-DCMAKE_CXX_FLAGS=-std=c++14 -frtti -fexceptions
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DCMAKE_SYSTEM_VERSION=21
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=/home/xuliang/.local/Android_Studio/Android_SDK/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/home/xuliang/.local/Android_Studio/Android_SDK/ndk-bundle/build/cmake/android.toolchain.cmake
+-G Ninja
+jvmArgs : 
+

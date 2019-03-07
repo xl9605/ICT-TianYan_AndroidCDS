@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "/home/xuliang/.local/Android_Studio/Android_SDK/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/home/xuliang/.local/Android_Studio/Android_SDK/ndk-bundle/build/cmake/platforms.cmake",
+    "/mnt/sda1/Program Codes/GitRepository/GitHubByxl9605/ICT-TianYan_AndroidCDS/AndroidCDS_Client/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/xuliang/.local/Android_Studio/Android_SDK/cmake/3.10.2.4988404/bin/cmake --build /mnt/sda1/Program Codes/GitRepository/GitHubByxl9605/ICT-TianYan_AndroidCDS/AndroidCDS_Client/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "native-lib-Release-arm64-v8a": {
+      "buildCommand": "/home/xuliang/.local/Android_Studio/Android_SDK/cmake/3.10.2.4988404/bin/cmake --build /mnt/sda1/Program Codes/GitRepository/GitHubByxl9605/ICT-TianYan_AndroidCDS/AndroidCDS_Client/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
+      "buildType": "release",
+      "toolchain": "3929408430",
+      "abi": "arm64-v8a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/mnt/sda1/Program Codes/GitRepository/GitHubByxl9605/ICT-TianYan_AndroidCDS/AndroidCDS_Client/app/src/main/cpp/native-lib.cpp",
+          "flags": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++14 -frtti -fexceptions -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/mnt/sda1/Program Codes/GitRepository/GitHubByxl9605/ICT-TianYan_AndroidCDS/AndroidCDS_Client/app/.externalNativeBuild/cmake/release/arm64-v8a"
+        }
+      ],
+      "output": "/mnt/sda1/Program Codes/GitRepository/GitHubByxl9605/ICT-TianYan_AndroidCDS/AndroidCDS_Client/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "3929408430": {
+      "cppCompilerExecutable": "/home/xuliang/.local/Android_Studio/Android_SDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
