@@ -1,3 +1,0 @@
-/home/humanmotion/TianYan_AndroidCDS/OtherTools/XM_IPC/PyCExt/build/CMakeFiles/rebuild_cache.dir
-/home/humanmotion/TianYan_AndroidCDS/OtherTools/XM_IPC/PyCExt/build/CMakeFiles/xmcext.dir
-/home/humanmotion/TianYan_AndroidCDS/OtherTools/XM_IPC/PyCExt/build/CMakeFiles/edit_cache.dir
